@@ -155,7 +155,7 @@ if st.session_state.revealed:
     )
 
     if st.session_state.user_guess == "Less than 25":
-        st.balloons()
+        #st.balloons()
         st.success("You trusted your intuition — and got it right! 🎉")
     else:
         st.warning("This is a very common intuitive mistake.")
@@ -199,6 +199,7 @@ if st.session_state.concept_checked:
             "Only then does a shared birthday become mathematically guaranteed."
             "Feel free to go through the simulation again to strengthen the concept"
         )
+
 
 
 
