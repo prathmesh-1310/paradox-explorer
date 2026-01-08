@@ -192,10 +192,11 @@ if st.session_state.concept_checked:
             "Correct! 🎯 With 366 people, the pigeonhole principle guarantees a shared birthday "
             "(even accounting for February 29)."
         )
-        st.balloons()
+        
     else:
         st.info(
             "The correct answer is **366 people and after**. "
             "Only then does a shared birthday become mathematically guaranteed."
             "Feel free to go through the simulation again to strengthen the concept"
         )
+
